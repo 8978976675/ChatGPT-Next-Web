@@ -284,11 +284,7 @@ export function Settings() {
                 {Locale.Settings.Update.GoToUpdate}
               </Link>
             ) : (
-              <IconButton
-                icon={<ResetIcon></ResetIcon>}
-                text={Locale.Settings.Update.CheckUpdate}
-                onClick={() => checkUpdate(true)}
-              />
+
             )}
           </ListItem>
 
